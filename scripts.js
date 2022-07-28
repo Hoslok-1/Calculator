@@ -43,4 +43,4 @@ function operate(firstNum,operator,secondNum)
     }
 }
 
-console.log(operate(12,divide,23));
+//console.log(operate(12,divide,23));

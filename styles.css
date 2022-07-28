@@ -1,7 +1,35 @@
 .calculator
 {
     border: 3px solid;
-    width:500px;
+    width:250px;
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     margin-left:400px;
+    column-gap:10px;
+    row-gap: 10px;
+}
+#result
+{
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px;
+}
+.display
+{
+    border:3px solid;
+    margin:7px;
+}
+button
+{
+    font-size: 30px;
+    text-align: center;
+    padding:7px;
+}
+
+.first-row, .second-row, .third-row, .fourth-row, .fifth-row
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
