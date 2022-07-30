@@ -5,16 +5,24 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-left:400px;
-    column-gap:10px;
-    row-gap: 10px;
+    margin-left:600px;
+    margin-top: 20%;
+    /* column-gap:10px;
+    row-gap: 10px; */
+
 }
-#result
+#result, #upper-display
 {
     display: flex;
     justify-content: flex-end;
     margin: 5px;
 }
+
+#upper-display
+{
+    font-size: 9px;
+}
+
 .display
 {
     border:3px solid;
