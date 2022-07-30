@@ -27,8 +27,6 @@ let sub2 = 0;
 let mul2 = 0;
 let div2 = 0;
 
-
-
 function add(firstNum,secondNum)
 {
     return parseFloat(firstNum) + parseFloat(secondNum);
