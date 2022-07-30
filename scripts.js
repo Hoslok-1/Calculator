@@ -146,11 +146,16 @@ nine.addEventListener('click',()=>{
     console.log(variable);
 });
 
+let dotCount = 0;
 dott.addEventListener('click',()=>{
-    let temp = variable + ".";
-    result.textContent = temp;
-    variable = result.textContent;
-    console.log(variable);
+    dotCount++;
+    if(dotCount<2)
+    {
+        let temp = variable + ".";
+        result.textContent = temp;
+        variable = result.textContent;
+        console.log(variable);
+    }
 });
 
 ampher.addEventListener('click',() =>{
